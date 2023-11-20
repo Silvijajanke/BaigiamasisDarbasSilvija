@@ -6,11 +6,6 @@ namespace Framework.POM
 {
     public class Login
     {
-        public static void ClickButtonDeclineCookies()
-        {
-            System.Threading.Thread.Sleep(150);
-            Common.ClickElement(Locators.Login.ClickButtonDeclineCookies);
-        }
 
         public static void ClickButtonElPastu()
         {
