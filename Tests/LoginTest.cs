@@ -14,9 +14,6 @@ namespace Tests
                 string ElPastas = "demo141488";
                 string slaptazodis = "Demo881414";
 
-                Framework.POM.Login.Open();
-                Framework.POM.Login.CloseWhereDoYouLive();
-                Framework.POM.Login.ClickButtonDeclineCookies();
                 Framework.POM.Login.ClickButtonRegistruotisPrisijungti();
                 Framework.POM.Login.ClickButtonRegistruotis();
                 Framework.POM.Login.ClickButtonElPastu();

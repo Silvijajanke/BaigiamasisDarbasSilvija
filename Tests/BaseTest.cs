@@ -1,6 +1,7 @@
 ﻿using Framework;
 using Framework.POM;
 using NUnit.Framework;
+using System;
 
 
 namespace Tests
@@ -12,6 +13,12 @@ namespace Tests
         {
             Driver.InitializeDriver();
             Login.Open();
+            System.Threading.Thread.Sleep(1000);
+            Framework.POM.Login.CloseWhereDoYouLive();
+            System.Threading.Thread.Sleep(1000);
+            Framework.POM.Login.ClickButtonDeclineCookies();
+            System.Threading.Thread.Sleep(1000);
+
         }
 
         [TearDown]
