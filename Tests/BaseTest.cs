@@ -18,7 +18,6 @@ namespace Tests
             System.Threading.Thread.Sleep(1000);
             Framework.POM.Login.ClickButtonDeclineCookies();
             System.Threading.Thread.Sleep(1000);
-
         }
 
         [TearDown]

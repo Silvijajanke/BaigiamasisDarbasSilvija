@@ -32,5 +32,10 @@ namespace Framework
         {
             driver.Quit();
         }
+
+        public static string GetSiustiProblemaPerziurejimui()
+        {
+            return driver.Title;
+        }
     }
 }

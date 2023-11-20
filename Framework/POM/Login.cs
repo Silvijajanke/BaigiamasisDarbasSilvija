@@ -19,7 +19,7 @@ namespace Framework.POM
 
         public static void ClickButtonRegistruotis()
         {
-            Common.ClickElement(Locators.Login.ClickButtonRegistruotis);
+            Common.ClickElement(Locators.ContactHelpCentre.ClickButtonRegistruotis);
         }
 
         public static void ClickButtonRegistruotisPrisijungti()
@@ -54,6 +54,21 @@ namespace Framework.POM
         public static string GetLoginTitle()
         {
             return Common.GetElementText(Locators.Login.GetLoginTitle);
+        }
+
+        public static void ClickReikiaPagalbos()
+        {
+            Common.ClickElement(Locators.ContactHelpCentre.ClickReikiaPagalbos);
+        }
+
+        public static void ClickSusisiekSuMumis()
+        {
+            Common.ClickElement(Locators.ContactHelpCentre.ClickSusisiekSuMumis);
+        }
+
+        public static void ClickRegistrPanaudojauNetinkamaElPastoAdresa()
+        {
+            Common.ClickElement(Locators.ContactHelpCentre.ClickRegistrPanaudojauNetinkamaElPastoAdresa);
         }
     }
 }
