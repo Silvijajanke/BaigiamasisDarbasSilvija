@@ -1,7 +1,5 @@
 ﻿using Framework;
-using Framework.POM;
 using NUnit.Framework;
-using System.IO;
 
 namespace Tests
 {
@@ -16,6 +14,7 @@ namespace Tests
                 string slaptazodis = "Demo881414";
 
                 Framework.POM.Login.ClickButtonRegistruotisPrisijungti();
+                Framework.POM.Login.ClickPrisijungti();
                 Framework.POM.Login.ClickButtonElPastu();
                 Framework.POM.Login.EnterElPastasArbaVartotojoVardas(ElPastas);
                 Framework.POM.Login.EnterSlaptazodis(slaptazodis);
