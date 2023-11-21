@@ -1,7 +1,5 @@
 ﻿using Framework;
-using Framework.POM;
 using NUnit.Framework;
-using System.IO;
 
 namespace Tests
 {
@@ -9,13 +7,14 @@ namespace Tests
     {
         internal class LoginScenario : BaseTest
         {
-            [TestCase(1)]
+            [Test, Order(1)]
             public void Login()
             {
                 string ElPastas = "demo141488";
                 string slaptazodis = "Demo881414";
 
                 Framework.POM.Login.ClickButtonRegistruotisPrisijungti();
+                Framework.POM.Login.ClickPrisijungti();
                 Framework.POM.Login.ClickButtonElPastu();
                 Framework.POM.Login.EnterElPastasArbaVartotojoVardas(ElPastas);
                 Framework.POM.Login.EnterSlaptazodis(slaptazodis);
@@ -25,7 +24,7 @@ namespace Tests
 
             }
 
-            [TestCase(2)]
+            [Test, Order(2)]
             public void ContactHelpCentre()
             {
                 Framework.POM.Login.ClickButtonRegistruotisPrisijungti();

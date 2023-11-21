@@ -71,5 +71,9 @@ namespace Framework.POM
             Common.ClickElement(Locators.Login.ClickButtonDeclineCookies);
         }
 
+        public static void ClickPrisijungti()
+        {
+            Common.ClickElement("//*[@data-testid='auth-select-type--register-switch']");
+        }
     }
 }

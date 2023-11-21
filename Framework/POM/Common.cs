@@ -28,7 +28,7 @@ namespace Framework.POM
 
         internal static string GetLoginTitle(string getLoginTitle)
         {
-            return GetLoginTitle(getLoginTitle).Text;
+            return GetElement(getLoginTitle).Text;
         }
     }
 }

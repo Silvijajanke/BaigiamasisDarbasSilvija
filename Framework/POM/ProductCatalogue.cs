@@ -44,7 +44,7 @@ namespace Framework.POM
         }
         public static string GetSearchTitle()
         {
-            return Common.GetElementText(Locators.ProductCatalogue.GetSearchTitle);
+            return Common.GetElementText(Locators.ProductCatalogue.GetPurchaseTitle);
         }
         public static void ClickToProduct()
         {

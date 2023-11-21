@@ -13,8 +13,8 @@ namespace Tests
         {
             Driver.InitializeDriver();
             Login.Open();
-            System.Threading.Thread.Sleep(1000);
-            Framework.POM.Login.CloseWhereDoYouLive();
+            //System.Threading.Thread.Sleep(1000);
+            //Framework.POM.Login.CloseWhereDoYouLive();
             System.Threading.Thread.Sleep(1000);
             Framework.POM.Login.ClickButtonDeclineCookies();
             System.Threading.Thread.Sleep(1000);
