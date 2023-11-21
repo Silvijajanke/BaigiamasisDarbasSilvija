@@ -9,7 +9,7 @@ namespace Tests
     {
         internal class LoginScenario : BaseTest
         {
-            [TestCase(1)]
+            [Test, Order(1)]
             public void Login()
             {
                 string ElPastas = "demo141488";
@@ -25,7 +25,7 @@ namespace Tests
 
             }
 
-            [TestCase(2)]
+            [Test, Order(2)]
             public void ContactHelpCentre()
             {
                 Framework.POM.Login.ClickButtonRegistruotisPrisijungti();
