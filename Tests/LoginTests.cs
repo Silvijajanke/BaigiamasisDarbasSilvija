@@ -5,7 +5,7 @@ using System.IO;
 
 namespace Tests
 {
-    public class LoginTest
+    public class LoginTests
     {
         internal class LoginScenario : BaseTest
         {

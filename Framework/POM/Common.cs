@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework.Internal;
 using OpenQA.Selenium;
-
+using System;
 
 namespace Framework.POM
 {
@@ -24,6 +24,11 @@ namespace Framework.POM
         internal static string GetElementText(string locator)
         {
             return GetElement(locator).Text;
+        }
+
+        internal static string GetLoginTitle(string getLoginTitle)
+        {
+            return GetLoginTitle(getLoginTitle).Text;
         }
     }
 }

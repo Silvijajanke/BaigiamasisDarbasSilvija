@@ -37,5 +37,15 @@ namespace Framework
         {
             return driver.Title;
         }
+
+        public static string GetSearchTitle()
+        {
+            return driver.Title;
+        }
+
+        public static string GetPurchaseTitle()
+        {
+            return driver.Title;
+        }
     }
 }

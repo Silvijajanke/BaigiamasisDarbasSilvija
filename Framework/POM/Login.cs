@@ -31,7 +31,6 @@ namespace Framework.POM
         {
             Common.ClickElement(Locators.Login.CloseWhereDoYouLive);
         }
-
         public static void EnterElPastasArbaVartotojoVardas(string ElPastas)
         {
             Common.SendKeysToElement(Locators.Login.EnterElPastasArbaVartotojoVardas, ElPastas);
@@ -65,5 +64,12 @@ namespace Framework.POM
         {
             Common.ClickElement(Locators.ContactHelpCentre.ClickRegistrPanaudojauNetinkamaElPastoAdresa);
         }
+
+        public static void ClickButtonDeclineCookies()
+        {
+            System.Threading.Thread.Sleep(150);
+            Common.ClickElement(Locators.Login.ClickButtonDeclineCookies);
+        }
+
     }
 }

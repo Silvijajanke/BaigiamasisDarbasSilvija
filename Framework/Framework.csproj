@@ -58,11 +58,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Driver.cs" />
     <Compile Include="POM\Common.cs" />
     <Compile Include="POM\Locators.cs" />
     <Compile Include="POM\Login.cs" />
+    <Compile Include="POM\ProductCatalogue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
